@@ -1,0 +1,44 @@
+html {
+  background-color: rgba(0, 0, 0, 0.658);
+  padding: 20px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#todo-submit {
+  float: right;
+}
+
+#todo-input {
+  width: 80%;
+}
+
+#app {
+  background-color: rgb(114, 179, 236);
+  width: 350px;
+  margin: auto;
+  border-radius: 10px;
+  padding: 20px;
+  height: 400px;
+}
+
+#todo-title,
+#todo-subtitle {
+  text-align: center;
+  margin: 10px;
+  color: white;
+
+  font-weight: bolder;
+}
+
+#todo-input {
+  margin: auto;
+}
+
+li {
+  list-style: "\2714  ";
+  color: white;
+
+  width: 300px;
+
+
+}
